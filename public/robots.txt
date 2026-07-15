@@ -1,0 +1,33 @@
+# Level One — robots.txt
+# All crawlers welcome, including AI / LLM crawlers.
+
+User-agent: *
+Allow: /
+
+# Named AI crawlers (explicitly allowed)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# TODO: uncomment and set your live domain, then resubmit in Google Search Console:
+# Sitemap: https://YOUR-DOMAIN/sitemap.xml
